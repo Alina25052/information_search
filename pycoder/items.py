@@ -11,3 +11,4 @@ class PycoderItem(scrapy.Item):
     # name = scrapy.Field()
 	title = scrapy.Field()
 	body = scrapy.Field()
+	url = scrapy.Field()
